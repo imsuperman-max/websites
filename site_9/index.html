@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>avi vibe אבי לוי</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #282c34;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav button {
+            background-color: #61dafb;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        nav button:hover {
+            background-color: #21a1f1;
+        }
+        .hero {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+        .hero button {
+            background-color: #61dafb;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #21a1f1;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            padding: 2rem;
+        }
+        .service-card {
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .why-us {
+            background-color: #eee;
+            padding: 2rem;
+            text-align: center;
+        }
+        .why-us h2 {
+            margin-bottom: 1rem;
+        }
+        .strengths {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .strength {
+            max-width: 200px;
+            margin: 1rem;
+        }
+        .contact {
+            padding: 2rem;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 1rem;
+        }
+        .contact button {
+            background-color: #25D366;
+            border: none;
+            padding: 0.5rem 1.5rem;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact button:hover {
+            background-color: #1ebd57;
+        }
+        footer {
+            background-color: #282c34;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div>avi vibe אבי לוי</div>
+    <button onclick="window.location.href='tel:+972527784077'">התקשר</button>
+</nav>
+
+<div class="hero">
+    <h1>avi vibe אבי לוי</h1>
+    <p>הפכו את האירוע שלכם לבלתי נשכח עם המוזיקה שלנו</p>
+    <button>גלה עוד</button>
+</div>
+
+<div class="services">
+    <div class="service-card">שירות 1</div>
+    <div class="service-card">שירות 2</div>
+    <div class="service-card">שירות 3</div>
+    <div class="service-card">שירות 4</div>
+</div>
+
+<div class="why-us">
+    <h2>למה אנחנו?</h2>
+    <div class="strengths">
+        <div class="strength">מוזיקה מותאמת אישית</div>
+        <div class="strength">ציוד מתקדם</div>
+        <div class="strength">ניסיון עשיר</div>
+        <div class="strength">שירות לקוחות מעולה</div>
+    </div>
+</div>
+
+<div class="contact">
+    <h2>צור קשר</h2>
+    <p>טלפון: +972 52-778-4077</p>
+    <button onclick="window.location.href='https://wa.me/972527784077'">WhatsApp</button>
+</div>
+
+<footer>
+    avi vibe אבי לוי © 2023
+</footer>
+
+</body>
+</html>
