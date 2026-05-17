@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קפיטריה</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        nav {
+            background-color: #4a4a4a;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #ff6f61;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #ff8f81;
+        }
+        .hero {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        .hero a {
+            color: #333;
+            background-color: #ff6f61;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .hero a:hover {
+            background-color: #ff8f81;
+        }
+        .services, .strengths {
+            padding: 50px 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .services div, .strengths div {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .services div:hover, .strengths div:hover {
+            transform: translateY(-5px);
+        }
+        .contact {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .contact a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #25d366;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .contact a:hover {
+            background-color: #35e376;
+        }
+        footer {
+            background-color: #4a4a4a;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>קפיטריה</div>
+        <a href="tel:+972544822287">התקשר: +972 54-482-2287</a>
+    </nav>
+    <div class="hero">
+        <h1>קפיטריה</h1>
+        <p>מקום מושלם להתחיל את היום</p>
+        <a href="#contact">צור קשר</a>
+    </div>
+    <div class="services">
+        <div>
+            <h3>קפה איכותי</h3>
+            <p>הקפה שלנו נבחר בקפידה ומוכן באהבה.</p>
+        </div>
+        <div>
+            <h3>ארוחות בוקר</h3>
+            <p>מגוון ארוחות בוקר עשירות ובריאות.</p>
+        </div>
+        <div>
+            <h3>כריכים טריים</h3>
+            <p>כריכים טריים ומגוונים לכל שעה ביום.</p>
+        </div>
+    </div>
+    <div class="strengths">
+        <div>
+            <h3>שירות אישי</h3>
+            <p>שירות אישי ומקצועי לכל לקוח.</p>
+        </div>
+        <div>
+            <h3>אווירה נעימה</h3>
+            <p>אווירה נעימה ומזמינה בכל ביקור.</p>
+        </div>
+        <div>
+            <h3>מחירים נוחים</h3>
+            <p>מחירים נוחים לכל כיס.</p>
+        </div>
+        <div>
+            <h3>מיקום מרכזי</h3>
+            <p>מיקום מרכזי ונגיש לכל.</p>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>צור קשר</h2>
+        <p>טלפון: +972 54-482-2287</p>
+        <a href="https://wa.me/972544822287">WhatsApp</a>
+    </div>
+    <footer>
+        <p>&copy; 2023 קפיטריה. כל הזכויות שמורות.</p>
+    </footer>
+</body>
+</html>
