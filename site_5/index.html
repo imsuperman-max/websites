@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>כלבתולה - מרפאה וטרינרית | ד״ר נורית פרנקל עובדיה</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .hero {
+            background-color: #2E7D32;
+            color: white;
+            text-align: center;
+            padding: 3em 1em;
+            animation: fadeIn 2s;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0.5em 0;
+        }
+        .hero button {
+            background-color: #81C784;
+            border: none;
+            padding: 1em 2em;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #66BB6A;
+        }
+        .services, .why-us {
+            padding: 2em 1em;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1em;
+            text-align: center;
+        }
+        .card {
+            background-color: #E8F5E9;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .contact {
+            background-color: #C8E6C9;
+            padding: 2em 1em;
+            text-align: center;
+        }
+        .contact button {
+            background-color: #4CAF50;
+            border: none;
+            padding: 1em 2em;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact button:hover {
+            background-color: #388E3C;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <div>כלבתולה - מרפאה וטרינרית | ד״ר נורית פרנקל עובדיה</div>
+    <button onclick="window.location.href='tel:+97236796050'">התקשר</button>
+</nav>
+
+<section class="hero">
+    <h1>כלבתולה</h1>
+    <p>טיפול מסור לחבר הכי טוב שלך</p>
+    <button>קבע תור עכשיו</button>
+</section>
+
+<section class="services">
+    <div class="card">
+        <h3>בדיקות תקופתיות</h3>
+        <p>שמירה על בריאות חיית המחמד שלך</p>
+    </div>
+    <div class="card">
+        <h3>חיסונים</h3>
+        <p>הגנה מלאה עם חיסונים מותאמים</p>
+    </div>
+    <div class="card">
+        <h3>טיפולים כירורגיים</h3>
+        <p>צוות מומחים לביצוע כל סוגי הניתוחים</p>
+    </div>
+</section>
+
+<section class="why-us">
+    <div class="card">
+        <h3>ניסיון רב שנים</h3>
+        <p>צוות מקצועי עם ניסיון עשיר</p>
+    </div>
+    <div class="card">
+        <h3>ציוד מתקדם</h3>
+        <p>שימוש בטכנולוגיות המתקדמות ביותר</p>
+    </div>
+    <div class="card">
+        <h3>יחס אישי</h3>
+        <p>תשומת לב אישית לכל חיית מחמד</p>
+    </div>
+    <div class="card">
+        <h3>זמינות גבוהה</h3>
+        <p>פתוחים לאורך כל השבוע</p>
+    </div>
+</section>
+
+<section class="contact">
+    <h2>צור קשר</h2>
+    <p>טלפון: +972 3-679-6050</p>
+    <button onclick="window.location.href='https://wa.me/97236796050'">שלח הודעה ב-WhatsApp</button>
+</section>
+
+<footer>
+    <p>כל הזכויות שמורות © כלבתולה - מרפאה וטרינרית</p>
+</footer>
+
+</body>
+</html>
