@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Heebo', sans-serif;
+            color: #333;
+        }
+        nav {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav button {
+            background-color: #388E3C;
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        nav button:hover {
+            background-color: #2E7D32;
+        }
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin: 20px 0;
+        }
+        .hero button {
+            background-color: #388E3C;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #2E7D32;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .service-card {
+            background-color: #f0f0f0;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .why-us {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .why-us h2 {
+            text-align: center;
+        }
+        .why-us ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .why-us li {
+            background-color: #e0e0e0;
+            padding: 10px;
+            border-radius: 8px;
+            text-align: center;
+            flex: 1;
+            margin: 0 10px;
+        }
+        .contact {
+            text-align: center;
+            padding: 20px;
+        }
+        .contact button {
+            background-color: #25D366;
+            border: none;
+            color: white;
+            padding: 15px 30px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact button:hover {
+            background-color: #1EBE56;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>ח.ג פרוייקטים</div>
+        <button onclick="window.location.href='tel:+972525933401'">התקשר</button>
+    </nav>
+    <div class="hero">
+        <h1>ח.ג פרוייקטים</h1>
+        <p>הבחירה המושלמת לשיפוץ הבית שלך</p>
+        <button>לפרטים נוספים</button>
+    </div>
+    <div class="services">
+        <div class="service-card">שירותי קיר גבס</div>
+        <div class="service-card">שירותי חשמל</div>
+        <div class="service-card">קבלן בניין</div>
+        <div class="service-card">צבעי מקצועי</div>
+    </div>
+    <div class="why-us">
+        <h2>למה אנחנו?</h2>
+        <ul>
+            <li>שירות מקצועי</li>
+            <li>מחירים הוגנים</li>
+            <li>זמינות גבוהה</li>
+            <li>מומחים בשיפוץ</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>צור קשר</h2>
+        <p>טלפון: +972 52-593-3401</p>
+        <button onclick="window.location.href='https://wa.me/972525933401'">WhatsApp</button>
+    </div>
+    <footer>
+        &copy; 2023 ח.ג פרוייקטים
+    </footer>
+</body>
+</html>
