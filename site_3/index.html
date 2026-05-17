@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מכבסת שלגיה</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Heebo', sans-serif;
+            background-color: #f5f5f5;
+        }
+        nav {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav button {
+            background-color: #ff6f61;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        nav button:hover {
+            background-color: #ff4a3c;
+        }
+        .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .hero button {
+            background-color: #ff6f61;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #ff4a3c;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .service-card {
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .why-us {
+            background-color: #4a4a4a;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .why-us h2 {
+            margin-bottom: 20px;
+        }
+        .why-us ul {
+            list-style: none;
+            padding: 0;
+        }
+        .why-us li {
+            margin: 10px 0;
+        }
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .contact h2 {
+            margin-bottom: 20px;
+        }
+        .contact button {
+            background-color: #25d366;
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .contact button:hover {
+            background-color: #1ebd50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>מכבסת שלגיה</div>
+        <button onclick="window.location.href='tel:+97235060099'">התקשר</button>
+    </nav>
+    <section class="hero">
+        <h1>מכבסת שלגיה</h1>
+        <p>שירותי ניקוי יבש מקצועיים ומהירים</p>
+        <button>לפרטים נוספים</button>
+    </section>
+    <section class="services">
+        <div class="service-card">
+            <h3>ניקוי יבש</h3>
+            <p>שירות איכותי ומהיר לכל סוגי הבגדים.</p>
+        </div>
+        <div class="service-card">
+            <h3>ניקוי שטיחים</h3>
+            <p>ניקוי יסודי לשטיחים מכל הסוגים.</p>
+        </div>
+        <div class="service-card">
+            <h3>כביסה וקיפול</h3>
+            <p>שירותי כביסה מקצועיים עם קיפול בגדים.</p>
+        </div>
+    </section>
+    <section class="why-us">
+        <h2>למה לבחור בנו?</h2>
+        <ul>
+            <li>שירות מהיר ואמין</li>
+            <li>מחירים תחרותיים</li>
+            <li>צוות מקצועי ומנוסה</li>
+            <li>שירות לקוחות מעולה</li>
+        </ul>
+    </section>
+    <section class="contact">
+        <h2>צור קשר</h2>
+        <p>טלפון: +972 3-506-0099</p>
+        <button onclick="window.location.href='https://wa.me/97235060099'">WhatsApp</button>
+    </section>
+    <footer>
+        &copy; 2023 מכבסת שלגיה. כל הזכויות שמורות.
+    </footer>
+</body>
+</html>
