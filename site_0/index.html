@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>סטודיו Rs עיצוב שיער</title>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Heebo', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            color: #333;
+        }
+        nav {
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 20px;
+            align-items: center;
+        }
+        nav button {
+            background-color: #e74c3c;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        nav button:hover {
+            background-color: #c0392b;
+        }
+        .hero {
+            background-color: #34495e;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .hero button:hover {
+            background-color: #d35400;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .service-card {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        .why-us {
+            background-color: #bdc3c7;
+            padding: 20px;
+            text-align: center;
+        }
+        .why-us h2 {
+            margin-bottom: 20px;
+        }
+        .why-us ul {
+            list-style: none;
+            padding: 0;
+        }
+        .why-us li {
+            margin-bottom: 10px;
+        }
+        .contact {
+            background-color: #ecf0f1;
+            text-align: center;
+            padding: 20px;
+        }
+        .contact a {
+            display: inline-block;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .contact a:hover {
+            background-color: #1ebe57;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>סטודיו Rs עיצוב שיער</div>
+        <button onclick="window.location.href='tel:+972527300101'">התקשר</button>
+    </nav>
+    <div class="hero">
+        <h1>סטודיו Rs עיצוב שיער</h1>
+        <p>הסטודיו שלך לעיצוב שיער מושלם</p>
+        <button>לפרטים נוספים</button>
+    </div>
+    <div class="services">
+        <div class="service-card">
+            <h3>תספורות</h3>
+            <p>תספורות מודרניות ומקצועיות לכל גיל</p>
+        </div>
+        <div class="service-card">
+            <h3>צביעת שיער</h3>
+            <p>צביעת שיער איכותית עם מגוון צבעים</p>
+        </div>
+        <div class="service-card">
+            <h3>החלקות</h3>
+            <p>שירותי החלקה לשיער חלק ומבריק</p>
+        </div>
+        <div class="service-card">
+            <h3>עיצוב שיער לאירועים</h3>
+            <p>עיצוב שיער מרהיב לכל אירוע</p>
+        </div>
+    </div>
+    <div class="why-us">
+        <h2>למה לבחור בנו?</h2>
+        <ul>
+            <li>מקצועיות בלתי מתפשרת</li>
+            <li>שירות אישי ומסור</li>
+            <li>מגוון רחב של שירותים</li>
+            <li>מחירים נוחים לכל כיס</li>
+        </ul>
+    </div>
+    <div class="contact">
+        <h2>צור קשר</h2>
+        <p>טלפון: +972 52-730-0101</p>
+        <a href="https://wa.me/972527300101">WhatsApp</a>
+    </div>
+    <footer>
+        &copy; 2023 סטודיו Rs עיצוב שיער
+    </footer>
+</body>
+</html>
